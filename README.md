@@ -1,0 +1,2 @@
+# skola
+Do kochganego Szti
