@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Testy_JS</title>
 </head>
 <body>
-    
+    <header>Tebele</header>
+    <script>
+        const numbers = [];
+        numbers[0] = 2;
+        numbers[1] = 23;
+        numbers[2] = 120;
+           document.write(numbers); 
+           document.write('<p>Długość tablicy' + numbers.length + `</p>`);
+           document.write(`Długość tablicy ${numbers.length} </p>`);
+           
+           document.write('<p>Długość tablicy' + numbers.length + `</p>`);
+           document.write(`Długość tablicy ${numbers.length} </p>`);
+
+
+    </script>
 </body>
 </html>
