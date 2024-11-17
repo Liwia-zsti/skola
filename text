@@ -1,0 +1,43 @@
+-html-
+  <!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kocham piwo</title>
+    <link rel="stylesheet" href="okok.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <p>Kalkulator</p>
+        </h1>
+    </header>
+    <main>
+        <script src="skrypty1.js"></script>
+</main>
+<footer></footer>
+</body>
+</html>
+-js-
+    let test = 1
+do{
+let x=prompt("kilometry czy mile")
+switch(x){
+    case"kilometry":
+    let kilometry=parseFloat(prompt("podaj liczbe kilometrów"))
+    let mile=kilometry1.65
+    document.write("mile = "+ mile +"<br> "+"kilometry = "+kilometry  )
+    test=1
+    break;
+    case"mile":
+    let mile1=parseFloat(prompt("podaj liczbe mila"))
+    let kilometry1 = mile10.62
+    document.write("mile = "+ mile1 +"<br> "+"kilometry = "+kilometry1  )
+    test=1
+    break;
+    default:
+        alert("podałęś niewłaściwą opcje")
+        test=3
+}
+}while(test==3)
